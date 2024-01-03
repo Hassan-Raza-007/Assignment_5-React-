@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@300;400&family=Sevillana&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  border: 2px solid red;
+  color: red;
+  background: none;
+  height: 35px;
+  width: 90px;
+}
+.btn:hover{
+  background-color: red;
+  color: white;
+}
+.chair_style{
+  height: 60vh;
+  width: 40vw;
+}
+
+/* Navbar Styling */
+
+.navbar {
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul :hover {
+  color: red;
+}
+
+.list_styling {
+  cursor: pointer;
+  padding: 0 20px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.navbar_cart_and_search {
+  display: flex;
+  margin: 10px;
+}
+
+/* Hero Section Styling */
+.hero_section {
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(84, 193, 193);
+  background-image: url('./assets/hero-section-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+}
+.hero_section_texts{
+  padding-left: 100px;
+}
+.discount_font_style {
+  font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sevillana', cursive;
+color: red;
+}
+
+/* Section One Style */
+.Section_one_style{
+background-image: url("./assets/section-1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
+margin-top: 50px;
+}
+.Section_One_Component_style{
+  display: flex;
+  justify-content: end;
+  padding-top: 100px;
+  color: rgb(92, 35, 5);
+  font-size: xx-large;
+}
+/* Section two Component Styling */
+.Section_two_Component{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+/* .Section_two_img{
+  height: 60vh;
+} */
